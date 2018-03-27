@@ -1,3 +1,5 @@
+Note: This is a fork of the ArduinoJson library in order to allow users of [esphomelib](https://github.com/OttoWinter/esphomelib) easier builds.
+
 ![ArduinoJson](banner.svg)
 
 ---
