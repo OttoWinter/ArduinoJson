@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/OttoWinter/ArduinoJson.git"
   },
-  "version": "5.13.2",
+  "version": "5.13.3",
   "authors": {
     "name": "Benoit Blanchon",
     "url": "https://blog.benoitblanchon.fr"
@@ -19,7 +19,7 @@
     "third-party"
   ],
   "build": {
-    "flags": "ARDUINOJSON_ENABLE_STD_STRING"
+    "flags": "-DARDUINOJSON_ENABLE_STD_STRING"
   },
   "frameworks": "arduino",
   "platforms": "*"
