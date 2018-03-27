@@ -29,9 +29,9 @@
 #define ARDUINOJSON_USE_INT64 0
 #endif
 
-// Embedded systems usually don't have std::string
+// On ESP8266 and ESP32 we have std::string
 #ifndef ARDUINOJSON_ENABLE_STD_STRING
-#define ARDUINOJSON_ENABLE_STD_STRING 0
+#define ARDUINOJSON_ENABLE_STD_STRING 1
 #endif
 
 // Embedded systems usually don't have std::stream
