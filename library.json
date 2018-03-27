@@ -1,11 +1,11 @@
 {
-  "name": "ArduinoJson",
+  "name": "ArduinoJson-esphomelib",
   "keywords": "json, rest, http, web",
-  "description": "An elegant and efficient JSON library for embedded systems",
-  "homepage": "https://arduinojson.org/?utm_source=meta&utm_medium=library.json",
+  "description": "Fork of the excellent ArduinoJson for easier building in esphomelib",
+  "homepage": "https://arduinojson.org/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bblanchon/ArduinoJson.git"
+    "url": "https://github.com/OttoWinter/ArduinoJson.git"
   },
   "version": "5.13.1",
   "authors": {
@@ -18,6 +18,9 @@
     "test",
     "third-party"
   ],
+  "build": {
+    "flags": "ARDUINOJSON_ENABLE_STD_STRING"
+  },
   "frameworks": "arduino",
   "platforms": "*"
 }
